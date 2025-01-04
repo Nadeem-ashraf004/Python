@@ -13,3 +13,6 @@ print(tup)
 a=(1,2,3)
 b=(4,5)
 print(a*2+b)
+##
+a,b,*c=(1,2,3,4)
+print(a,b,c)
