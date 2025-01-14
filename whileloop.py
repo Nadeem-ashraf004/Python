@@ -1,4 +1,5 @@
-#multiply two number 
+#multiply two number
+
 rows=int(input("Enter the rows for the multipication table :"))
 cols=int(input("Enter the colums for the multipication table :"))
 i=1
@@ -30,3 +31,20 @@ while i>0:
        
     print()
     i-=1  
+ ############################################ guess the number 
+import random 
+target = random.randint(1,100)
+attempts=0
+print("Guess the number between 1 to 100 :")
+while true:
+    guess=int(input("Enter your guess :"))
+    attempts +=1
+
+    if guess<target:
+        print("too low!")
+    elif guess>target:
+        print("too high !")
+    else:
+        
+        print(f"congratulation ! you guess it in {attempts} attempts ")
+        break
