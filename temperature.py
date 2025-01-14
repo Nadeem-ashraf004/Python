@@ -14,3 +14,16 @@ z=float(input("Enter your third side :"))
 s=(x+y+z)/2
 area=(s*(s-x)*(s-y)*(s-z))**0.5
 print("the area of the triangle is %0.2f"%area)
+##########################################
+import cmath
+a = 12
+b = 13
+c = 14
+
+d = (b**2) - (4*a*c)
+
+
+sol1 = (-b - cmath.sqrt(d)) / (2*a)
+sol2 = (-b + cmath.sqrt(d)) / (2*a)
+
+print("The solutions are {0} and {1}".format(sol1, sol2))
