@@ -22,9 +22,11 @@ elif(operator=="*") :
     result =n1*n2
     
 elif(operator=="/") :
-    result =n1/n2 
-    if(n2==0):
-         print("the must be greater !")
+    if(n1!=0 or n2!=0):
+       result =n1/n2
+    else:
+        print("the both number must be greater then 0 !") 
+        exit()
 else :
    print ("invalid symbol") 
 print(f"{n1} {operator} {n2} ={result}")             

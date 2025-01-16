@@ -19,5 +19,3 @@ def fun (x,y=50):
     print('y =',y)
 fun(39)
 #example2
-def calculate_price(base_price,tax=0.6,disc=0.7):
-    
