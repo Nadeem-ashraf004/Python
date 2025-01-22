@@ -19,3 +19,18 @@ def f():
 f()
 f()
 print(f" hello jinab :{counter}")
+#################
+balance=10000
+def deposit(amount):
+    global balance
+    amount +=balance
+    print(f"your cuurrent blance is : {amount}")
+def withdraw(amount):
+    global balance 
+    if amount <= balance:
+       balance-=amount
+       print(f"your withdraw : {amount}")
+    else:
+        print("insuficeint balance :")
+deposit(1000)
+withdraw(300)           
