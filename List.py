@@ -29,6 +29,7 @@ print("after extend :",y)
 lenght=len(y)
 print(lenght)
 ##################################
-student=["nadeem","ashraf"]
-student.append("gulazar")
+student=[]
+student.append([0])
+student[0]=input("Enter your first name :")
 print(student)
