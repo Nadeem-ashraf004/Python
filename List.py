@@ -28,3 +28,7 @@ y.extend([4,56,])
 print("after extend :",y)
 lenght=len(y)
 print(lenght)
+##################################
+student=["nadeem","ashraf"]
+student.append("gulazar")
+print(student)
