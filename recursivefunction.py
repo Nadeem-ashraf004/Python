@@ -19,4 +19,14 @@ def reverse(s):
         return s
     return reverse(s[1:])+s[0] 
 print(reverse("hello"))  
+############## through while loop
+string ="hello"
+reverse_string=""
+
+index=len(string)-1
+while index>=0:
+    reverse_string +=string[index]
+    index -= 1
+print (reverse_string)    
+
 
