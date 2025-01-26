@@ -8,3 +8,8 @@ def sum_even_odd(*args):
     odd_sum=sum(x for x in args if x % 2!=0)
     return even_sum ,odd_sum
 print(sum_even_odd(1,2,3,4,5))
+#############
+def myFun(*argv):
+    for arg in argv:
+        print(arg)
+myFun("hello","welcome","to","our Company")
