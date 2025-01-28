@@ -13,3 +13,9 @@ def myFun(*argv):
     for arg in argv:
         print(arg)
 myFun("hello","welcome","to","our Company")
+#####################
+def fun (arg1,*argv):
+    print("first argument :",arg1)
+    for arg in argv :
+        print("Argument *argv :",arg)
+fun ('hello','wellcom','to','AI Chatbots campany')        
