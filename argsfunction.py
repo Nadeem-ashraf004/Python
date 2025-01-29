@@ -25,3 +25,7 @@ def fn(*args,**wargs):
     print("overall argument ",wargs)
 fn(1,2,3,4,a=11,b=3)  
 ##########  
+def fun (**wargs):
+    for k ,val in wargs.items():
+        print("  ",k,val)
+fun(s1="code",s2="with",s3="saqi")        
