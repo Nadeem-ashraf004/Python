@@ -19,3 +19,8 @@ def fun (arg1,*argv):
     for arg in argv :
         print("Argument *argv :",arg)
 fun ('hello','wellcom','to','AI Chatbots campany')        
+###################
+def fn(*args,**wargs):
+    print("position argument",args)
+    print("overall argument ",wargs)
+fn(1,2,3,4,a=11,b=3)    
