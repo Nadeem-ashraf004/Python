@@ -5,5 +5,4 @@ class Car:
     def display(self):
         return self.brand,self.model
 Car1=Car("toyota","Corola") 
-print(Car1.display())      
-############################
+print(Car1.display())
