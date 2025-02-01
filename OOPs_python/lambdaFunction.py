@@ -7,6 +7,6 @@ print(r1(12))
 ##############
 def func(a):
     return len (a)
-car=['corola','marsedies']
-car.sort(func(a))
+car=['corola','mars']
+car.sort(key=func)
 print(car)
