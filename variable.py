@@ -34,3 +34,4 @@ def global_access_var():
     print(local_access_var)
 
 global_access_var()
+#####################
