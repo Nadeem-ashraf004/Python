@@ -22,4 +22,8 @@ class Dog():
 dog1=Dog("charr",3)
 dog2=Dog("Vhar",5)
 print(dog1)
-print(dog2)           
+print(dog2)  
+dog1.name="Cola"
+dog1.age=45
+print("Update the name and age dog1 is :")
+print(dog1)
