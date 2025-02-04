@@ -1,12 +1,12 @@
 class animal():
-    def spark(self):
+    def speak(self):
         return "place in subclass"
 class Dog(animal):
-    def spark(self):
+    def speak(self):
         return "wooof" 
 class Cat(animal):
-    def spark(self):
+    def speak(self):
         return "maowe"
 Animals=[Dog(),Cat()]
 for animal in Animals:
-    print(animal.spark())           
+    print(animal.speak())           
