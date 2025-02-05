@@ -62,4 +62,6 @@ car1=Car("colora","civic")
 Board1=Board("Kella","fanta")
 plans1=plans("dowing7","kalta")
 for x in (car1,Board1,plans1):
-    x.move()                                   
+    print("Brand :",x.brand,"\n","Model :",x.model)
+    x.move()          
+#################################                             
