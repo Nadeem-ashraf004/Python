@@ -39,7 +39,27 @@ elif Animal_sound=="cat":
 else:
     animal=Animal()
 print(f"the {Animal_sound.capitalize()}  says:{animal.sound()}")  
-################################
-          
-
-             
+###############################
+class Car():
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def move(self):
+        print("Drive")
+class Board() :
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def move(self):
+        print("sail")
+class plans():
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    def move(self):
+        print("flying")
+car1=Car("colora","civic")
+Board1=Board("Kella","fanta")
+plans1=plans("dowing7","kalta")
+for x in (car1,Board1,plans1):
+    x.move ()                                     
