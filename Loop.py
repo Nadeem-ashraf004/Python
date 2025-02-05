@@ -140,3 +140,16 @@ for index, student in enumerate(students, start=1):
     print(f"Address: {student['address']}")
 
 ###################
+T=int (input("Enter Table number"))
+S=int(input("Enter starting number :"))
+E=int (input("Enter your ending number :"))
+i=1
+if S>E:
+       i=-1
+       E=E-1
+else:
+       E=E+1
+              
+for i in range(S,E+1,i):
+       print(f"{T} x {i}={T*i}")
+#####################################       
