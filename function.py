@@ -47,3 +47,16 @@ fun(n)
 def fun(a,b):
     return a+b
 fun(5,10)
+#######################
+def prim_num(n):
+    if n in [2,3]:
+        return True
+    elif(n==1) or (n%2==0):
+        return False
+    r=3
+    while r*r<n:
+        if n % r == 0:
+            return False
+        r += 2
+    return True
+print(prim_num(78), prim_num(79))
