@@ -6,4 +6,8 @@ class person():
         print(self.fname,self.lname) 
 x=person('Nadeem','ashraf')
 x.name()      
-##########################     
+##########################   create a child class 
+class student(person):
+    pass  
+x=student('Ali','Ahmad')
+x.name()
