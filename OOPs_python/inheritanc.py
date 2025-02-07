@@ -5,4 +5,5 @@ class person():
     def name(self):
         print(self.fname,self.lname) 
 x=person('Nadeem','ashraf')
-x.name()           
+x.name()      
+##########################     
