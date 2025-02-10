@@ -13,4 +13,6 @@ print("if we just or bitwise function here is the result : ",num1_bit)
 num1_bit=np.bitwise_xor(a,b)
 print("XOR operation is done :",num1_bit)
 ########################
+num1_bit=np.invert(a,b)
+print("After inverted function : ")
 
