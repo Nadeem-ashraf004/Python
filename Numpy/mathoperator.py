@@ -6,4 +6,6 @@ print("after the sin function :",sin_value)
 ###################################### cos function
 cos_value=np.cos(array)
 print("After apply the cos function :",cos_value)
-############################
+############################ tan function
+tan_value=np.tan(array)
+print("Affter apply the tan function :",tan_value)
