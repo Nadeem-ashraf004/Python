@@ -16,3 +16,5 @@ print("XOR operation is done :",num1_bit)
 num1_bit=np.invert(a,b)
 print("After inverted function : ")
 ######################## left.right function 
+num1_bit=np.left_shift(a,b)
+print("After left shift function :",num1_bit)
