@@ -29,4 +29,12 @@ print(lenght1)
 lenght2=len(d.values())
 print(lenght2)
 lenght3=len(d.items())
-print(lenght3)      
+print(lenght3) 
+################################### to marge the two or more dictionaries
+   
+def merge_dict():
+    A = {"a": "nadeem", "b": "ashraf", "c": "hussain"}
+    B = {"f": "Ali", "r": "arif"}
+    D = A | B  
+    return D
+print(merge_dict())
