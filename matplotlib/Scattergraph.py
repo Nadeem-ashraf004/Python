@@ -7,4 +7,12 @@ plt.title("scatter graph")
 plt.legend(["A"])
 plt.show()
 ############################## multiple data set
-
+x1=np.array.arange(10,1000,30)
+y1=np.array.arange(10,1000,20)
+x2=np.array.arange(10,1000,50)
+y2=np.array.arange(10,1000,60)
+plt.scatter(x1,y1,color='red',label='Group 1')
+plt.scatter(x2,y2,color='red',label='Group 1')
+plt.title("multiple dataset scatter ghraph")
+plt.legend()
+plt.show()
