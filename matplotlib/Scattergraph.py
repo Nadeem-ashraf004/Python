@@ -16,7 +16,7 @@ plt.scatter(x2,y2,color='red',label='Group 1')
 plt.title("multiple dataset scatter ghraph")
 plt.legend()
 plt.show()
-####################################
+#################################### customize color and size
 x = np.array([3, 12, 9, 20, 5, 18, 22, 11, 27, 16, 8, 24, 15])
 y = np.array([95, 55, 63, 77, 89, 50, 41, 70, 58, 83, 61, 52, 68])
 plt.scatter(x,y,color='#23d4e8')
