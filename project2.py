@@ -5,15 +5,15 @@ def menu():
     print("B. To Display all student with all stored information")
     print("C. To Search by id ")
     print("D. To exit the application")
-# def add_student():
-#         ID=input("Enter your ID :")
-#         name=input("Enter your name:")
-#         address=input("Ener your address:")
-#         student_detail.append({"ID": ID, "Name": name,"address":address})
-#         print("Student added successfully!")
-# def display_student():
-#             for student in student_detail:
-#                     print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
+def add_student():
+        ID=input("Enter your ID :")
+        name=input("Enter your name:")
+        address=input("Ener your address:")
+        student_detail.append({"ID": ID, "Name": name,"address":address})
+        print("Student added successfully!")
+def display_student():
+            for student in student_detail:
+                    print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
 # def search_by_id():
 #     student_id = input("Enter ID to search: ")
 #     for student in student_detail:
