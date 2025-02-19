@@ -14,13 +14,13 @@ def add_student():
 def display_student():
             for student in student_detail:
                     print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
-# def search_by_id():
-#     student_id = input("Enter ID to search: ")
-#     for student in student_detail:
-#         if student['ID'] == student_id:
-#             print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
-#             return
-#     print("Not Found") 
+def search_by_id():
+    student_id = input("Enter ID to search: ")
+    for student in student_detail:
+        if student['ID'] == student_id:
+            print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
+            return
+    print("Not Found") 
 # while True:
 #     menu()
 #     choice = input("Enter your choice: ").upper()    
