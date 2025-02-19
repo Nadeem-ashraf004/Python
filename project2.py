@@ -21,19 +21,19 @@ def search_by_id():
             print(f"ID: {student['ID']}, Name: {student['Name']}, address: {student['address']}")
             return
     print("Not Found") 
-# while True:
-#     menu()
-#     choice = input("Enter your choice: ").upper()    
-#     if choice=='A':
-#           add_student()
-#     elif choice=='B':
-#           display_student()
-#     elif choice=='C':
-#           search_by_id()
-#     elif choice=='D':
-#           print("Now exit the Application :")      
-#           break      
-#     else:
-#           print("invalid choicce :")            
+while True:
+    menu()
+    choice = input("Enter your choice: ").upper()    
+    if choice=='A':
+          add_student()
+    elif choice=='B':
+          display_student()
+    elif choice=='C':
+          search_by_id()
+    elif choice=='D':
+          print("Now exit the Application :")      
+          break      
+    else:
+          print("invalid choicce :")            
 
                              
