@@ -13,4 +13,5 @@ data = [23, 17, 35, 29, 12, 41]
 explot=(0.1, 0.0, 0.2, 0.3, 0.0, 0.0)
 colors = ("orange", "cyan", "brown",
           "grey", "indigo", "beige")
+wp = {'linewidth': 1, 'edgecolor': "green"}          
 
