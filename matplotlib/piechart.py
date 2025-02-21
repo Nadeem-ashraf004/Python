@@ -6,4 +6,9 @@ fig=plt.figure(figsize=(10,7))
 plt.pie(data,labels=cars)
 plt.show()
 #################################
+cars = ['AUDI', 'BMW', 'FORD',
+        'TESLA', 'JAGUAR', 'MERCEDES']
+
+data = [23, 17, 35, 29, 12, 41]
+explot=[]
 
