@@ -16,14 +16,14 @@ data = [23, 17, 35, 29, 12, 41]
 # Creating explode data
 explode = (0.1, 0.0, 0.2, 0.3, 0.0, 0.0)
 
-# Creating color parameters
-colors = ("orange", "cyan", "brown",
-          "grey", "indigo", "beige")
+# # Creating color parameters
+# colors = ("orange", "cyan", "brown",
+#           "grey", "indigo", "beige")
 
-# Wedge properties
-wp = {'linewidth': 1, 'edgecolor': "green"}
+# # Wedge properties
+# wp = {'linewidth': 1, 'edgecolor': "green"}
 
-# Creating autocpt arguments
+# # Creating autocpt arguments
 
 
 def func(pct, allvalues):
