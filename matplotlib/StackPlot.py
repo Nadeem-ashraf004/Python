@@ -1,3 +1,4 @@
+#########################
 import matplotlib.pyplot as plt
 import numpy as np
 days = [1, 2, 3, 4, 5]
