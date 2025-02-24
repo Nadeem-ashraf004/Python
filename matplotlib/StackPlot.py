@@ -15,4 +15,3 @@ plt.title('Representation of Study and \
 Playing wrt to Days')
 
 plt.show()
-#########################
