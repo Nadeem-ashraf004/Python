@@ -11,3 +11,4 @@ y=np.exp(np.sin(x))
 maekerline,spaceline,stemlines=plt.stem(x,y,linefmt='grey',markerfmt='D',bottom=1.1,use_line_collection=True)
 markerline.set_markerfacecolor('none')
 plt.show()
+########################
