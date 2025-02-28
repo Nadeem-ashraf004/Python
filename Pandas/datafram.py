@@ -10,3 +10,11 @@ print(p)
 dict={'name':["aparna", "pankaj", "sudhir", "Geeku"],'degree': ["MBA", "BCA", "M.Tech", "MBA"],'score':[90, 40, 80, 98]}
 data=pd.DataFrame(dict)
 print(data)
+#################
+lst2=[]
+pf=pd.DataFrame(lst2)
+print(pf)
+######################
+data = [{'a': 1, 'b': 2, 'c': 3},{'a': 10, 'b': 20, 'c': 30}]
+df=pd.DataFrame(data)
+print(df)
