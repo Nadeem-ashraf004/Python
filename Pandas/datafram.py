@@ -18,3 +18,7 @@ print(pf)
 data = [{'a': 1, 'b': 2, 'c': 3},{'a': 10, 'b': 20, 'c': 30}]
 df=pd.DataFrame(data)
 print(df)
+###############
+data={'Name':['nadeem','ashraf','hussain','haider'],'Marks':[99, 98, 95, 90]}
+df=pd.DataFrame(data,index=['ranaked1','ranked2','ranked3','ranked4'])
+print(df)
