@@ -22,3 +22,7 @@ print(df)
 data={'Name':['nadeem','ashraf','hussain','haider'],'Marks':[99, 98, 95, 90]}
 df=pd.DataFrame(data,index=['ranaked1','ranked2','ranked3','ranked4'])
 print(df)
+###########################
+dic={'first':[12,np.nan,23,24,25,26,27],'second':[13,12,14,15,16,17,np.nan],'third':[np.nan,34,35,36,37,38,39]}
+df=pd.DataFrame(dic)
+pd.isnull()
