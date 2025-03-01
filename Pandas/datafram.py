@@ -27,3 +27,9 @@ dic={'first':[12,np.nan,23,24,25,26,27],'second':[13,12,14,15,16,17,np.nan],'thi
 df=pd.DataFrame(dic)
 pd.isnull()
 #########################
+Data=['New York', 'Chicago', 'Toronto', 'Lisbon']
+index_name=[1,2,3,4]
+sr=pd.Series(data=Data,
+            index=index_name)
+print(sr)
+print(sr.index)
