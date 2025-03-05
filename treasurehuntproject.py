@@ -31,4 +31,3 @@ while chance < 6:
 if chance >= 6:
     print("Game over. Better luck next time!")
 ##################    
-###############
