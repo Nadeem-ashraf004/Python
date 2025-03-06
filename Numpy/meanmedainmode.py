@@ -39,21 +39,21 @@ def mode():
     mode_result = stats.mode(marks, keepdims=True)
     print(f"Mode: {mode_result.mode[0]} (Appeared {mode_result.count[0]} times)")
 
-# Main Loop
-# while True:
-#     menu()
-#     choice = input("Enter your choice: ").upper()
+Main Loop
+while True:
+    menu()
+    choice = input("Enter your choice: ").upper()
 
-#     if choice == 'A':
-#         enter_marks()
-#     elif choice == 'B':
-#         mean()
-#     elif choice == 'C':
-#         median()
-#     elif choice == 'D':
-#         mode()
-#     elif choice == 'X':
-#         print("Exiting the application. Goodbye!")
-#         break
-#     else:
-#         print("⚠️ Invalid choice! Please enter A, B, C, D, or X.")
+    if choice == 'A':
+        enter_marks()
+    elif choice == 'B':
+        mean()
+    elif choice == 'C':
+        median()
+    elif choice == 'D':
+        mode()
+    elif choice == 'X':
+        print("Exiting the application. Goodbye!")
+        break
+    else:
+        print("⚠️ Invalid choice! Please enter A, B, C, D, or X.")
