@@ -39,7 +39,7 @@ def mode():
     mode_result = stats.mode(marks, keepdims=True)
     print(f"Mode: {mode_result.mode[0]} (Appeared {mode_result.count[0]} times)")
 
-Main Loop
+#Main Loop
 while True:
     menu()
     choice = input("Enter your choice: ").upper()
@@ -57,3 +57,4 @@ while True:
         break
     else:
         print("⚠️ Invalid choice! Please enter A, B, C, D, or X.")
+#####
