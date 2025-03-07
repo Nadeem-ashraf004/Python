@@ -50,5 +50,8 @@ data = {'Name': ['John', 'Alice', 'Bob', 'Eve', 'Charlie'],
         'Salary': [50000, 55000, 40000, 70000, 48000]}
 
 df = pd.DataFrame(data)
-print(df.index)
-##############
+df_with_index=df.set_index('name')
+df_reseting=df.reset_index()
+print(df_reseting)
+# print(df_with_index)
+# print(df.index)
