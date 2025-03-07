@@ -9,6 +9,9 @@ def menu():
     print("B / Calculate Mean ")
     print("C / Calculate Median")
     print("D / Calculate Mode ")
+    print("E / Calculate variance ")
+    print("F / Calculate Percentile ")
+    print("G / Calculate standard derivation ")
     print("X / Exit the application")
 
 def enter_marks():
@@ -38,7 +41,19 @@ def mode():
         return
     mode_result = stats.mode(marks, keepdims=True)
     print(f"Mode: {mode_result.mode[0]} (Appeared {mode_result.count[0]} times)")
-
+def variance():
+    if not marks:
+        print("⚠️ No marks available. Please enter marks first.")
+        return
+    print(f"variance :{np.var(marks)}")
+def percentile():
+    if not marks:
+        print("⚠️ No marks available. Please enter marks first.")  
+    print(f"percentile :{np.percentile(marks, 75)}") 
+def standard_derivation():
+    if not marks:
+        print("⚠️ No marks available. Please enter marks first.") 
+    print(f"standard derivstion :{np.std(marks)}")            
 #Main Loop
 while True:
     menu()
@@ -52,6 +67,12 @@ while True:
         median()
     elif choice == 'D':
         mode()
+    elif choice=='E':
+        variance() 
+    elif choice=='F':
+        percentile() 
+    elif choice=='G':
+        standard_derivation()          
     elif choice == 'X':
         print("Exiting the application. Goodbye!")
         break
