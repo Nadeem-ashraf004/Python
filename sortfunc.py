@@ -4,7 +4,7 @@ for i in sorted(set(lis)):
     print(i,end=" ")
 ###############################
 lis=['rahat','zahid','ali','ali','sultan']
-print("the sorted list is :")
+print("\nthe sorted list is :")
 for i in sorted(set(lis)):
     print(i)
 ################################  
