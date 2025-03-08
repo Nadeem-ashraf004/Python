@@ -72,10 +72,10 @@ print("Original DataFrame:\n", df)
 print("\nDataFrame with Reset Index:\n", df_reset)
 print("\nAlice's Details:\n", row)
 
-# # Plot Histogram for Salary
-# plt.hist(df['Salary'], bins=5, color='blue', alpha=0.7, edgecolor='black')
-# plt.xlabel('Salary')
-# plt.ylabel('Frequency')
-# plt.title('Salary Distribution')
-# plt.show()
+# Plot Histogram for Salary
+plt.hist(df['Salary'], bins=5, color='blue', alpha=0.7, edgecolor='black')
+plt.xlabel('Salary')
+plt.ylabel('Frequency')
+plt.title('Salary Distribution')
+plt.show()
 
