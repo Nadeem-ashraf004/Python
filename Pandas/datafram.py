@@ -44,14 +44,38 @@ player_list = [['M.S.Dhoni', 36, 75, 5428000],
 df = pd.DataFrame(player_list, columns=['Name', 'Age', 'Weight', 'Salary'])
 print(df)
 #####################
-data = {'Name': ['John', 'Alice', 'Bob', 'Eve', 'Charlie'],
-        'Age': [25, 30, 22, 35, 28],
-        'Gender': ['Male', 'Female', 'Male', 'Female', 'Male'],
-        'Salary': [50000, 55000, 40000, 70000, 48000]}
+import pandas as pd
+import matplotlib.pyplot as plt
 
+# Creating a dictionary
+data = {
+    'Name': ['John', 'Alice', 'Bob', 'Eve', 'Charlie'],
+    'Age': [25, 30, 22, 35, 28],
+    'Gender': ['Male', 'Female', 'Male', 'Female', 'Male'],
+    'Salary': [50000, 55000, 40000, 70000, 48000]
+}
+
+# Creating a DataFrame
 df = pd.DataFrame(data)
-df_with_index=df.set_index('name')
-df_reseting=df.reset_index()
-print(df_reseting)
-print(df_with_index)
-print(df.index)
+
+# Reset index
+df_reset = df.reset_index()
+
+# Set "Name" as the index
+df_with_index = df.set_index('Name')
+
+# Corrected way to get Alice's row
+row = df[df['Name'] == 'Alice']
+
+# Print DataFrames
+print("Original DataFrame:\n", df)
+print("\nDataFrame with Reset Index:\n", df_reset)
+print("\nAlice's Details:\n", row)
+
+# # Plot Histogram for Salary
+# plt.hist(df['Salary'], bins=5, color='blue', alpha=0.7, edgecolor='black')
+# plt.xlabel('Salary')
+# plt.ylabel('Frequency')
+# plt.title('Salary Distribution')
+# plt.show()
+
