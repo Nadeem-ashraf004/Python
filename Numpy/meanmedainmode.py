@@ -1,3 +1,4 @@
+###################make a app by using mode,variance,mean,standard derivation,percentile,
 import numpy as np
 from scipy import stats
 
