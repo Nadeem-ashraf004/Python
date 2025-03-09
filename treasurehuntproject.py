@@ -29,5 +29,4 @@ while chance < 6:
         print("Invalid input format. Please enter four numbers separated by commas.")
 
 if chance >= 6:
-    print("Game over. Better luck next time!")
-##################    
+    print("Game over. Better luck next time!")   
