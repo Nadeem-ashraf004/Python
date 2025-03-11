@@ -12,5 +12,6 @@ df1=pd.DataFrame(data2,index=[0,1,2,3])
 print(df,"\n",df1)
 frame=[df,df1]
 res=pd.concat(frame)
+print(res)
 
 
