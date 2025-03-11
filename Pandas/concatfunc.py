@@ -11,7 +11,7 @@ df=pd.DataFrame(data1,index=[0,1,2,3])
 df1=pd.DataFrame(data2,index=[0,1,2,3])
 print(df,"\n",df1)
 frame=[df,df1]
-res=pd.concat(frame)
+res=pd.concat(frame(axis=1,join='inner'))
 print(res)
 
 
