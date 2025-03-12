@@ -14,5 +14,4 @@ frame=[df,df1]
 res=pd.concat([df,df1],axis=1,join='inner')
 print(res)
 res1=pd.concat([df,df1],axis=1,sort=False)
-
-
+print(res1)
