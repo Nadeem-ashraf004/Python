@@ -1,4 +1,4 @@
-
+import pandas as pd
 df = pd.DataFrame({'Product': ['Carrots', 'Broccoli', 'Banana', 'Banana',
                                'Beans', 'Orange', 'Broccoli', 'Banana'],
                    'Category': ['Vegetable', 'Vegetable', 'Fruit', 'Fruit',
