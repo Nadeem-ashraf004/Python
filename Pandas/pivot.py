@@ -11,3 +11,4 @@ pivot=df.pivot_table(index=['Product'],
                      values=['Amount'],
                      aggfunc={'sum','mean','medaim','min','max'})
 ###############
+pivot1=df.pivot_table(index=['Category'],values=['Amount'],aggfunc={'sum','mean','medaim','min','max'})
