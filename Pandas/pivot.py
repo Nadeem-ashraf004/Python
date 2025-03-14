@@ -9,5 +9,5 @@ df = pd.DataFrame({'Product': ['Carrots', 'Broccoli', 'Banana', 'Banana',
 print(df)
 pivot=df.pivot_table(index=['Product'],
                      values=['Amount'],
-                     aggfunc='sum')
+                     aggfunc={'sum','mean','medaim','min','max'})
 ###############
