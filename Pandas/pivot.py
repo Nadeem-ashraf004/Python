@@ -9,6 +9,7 @@ df = pd.DataFrame({'Product': ['Carrots', 'Broccoli', 'Banana', 'Banana',
 print(df)
 pivot=df.pivot_table(index=['Product'],
                      values=['Amount'],
-                     aggfunc={'sum','mean','medaim','min','max'})
+                     aggfunc={'sum\n','mean\n','medaim\n','min\n','max\n'}
+)
 ###############
-pivot1=df.pivot_table(index=['Category'],values=['Amount'],aggfunc={'sum','mean','medaim','min','max'})
+pivot1=df.pivot_table(index=['Category'],values=['Amount'],aggfunc={'sum\n','mean\n','medaim\n','min\n','max\n'})
