@@ -24,6 +24,13 @@ number_sum=sum(Input)
 total_len=len(Input)   
 Mean=number_sum/total_len
 print("Mean of given number :",Mean)
-median=total_len/
+def custom_median(Input):
+        mid=total_len//2
+        if total_len % 2==0:
+              return (Input[mid-1]+Input[mid])/2
+        else:
+              return Input(mid)
+
+
 
    
