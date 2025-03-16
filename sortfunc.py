@@ -12,3 +12,11 @@ lis=['rahat','zahid','ali','ali','sultan']
 print("the sorted list is :")
 for i in sorted(reversed(lis)):
     print(i)      
+#################################
+Input=[]
+input_number=int(input("How many number do you wants to enter :"))
+for i in range(input_number):
+    num=int(input("Enter your number:"))
+    Input.append(num)
+print(",".join(map(str,Input)))    
+   
