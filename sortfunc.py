@@ -18,5 +18,12 @@ input_number=int(input("How many number do you wants to enter :"))
 for i in range(input_number):
     num=int(input("Enter your number:"))
     Input.append(num)
-print(",".join(map(str,Input)))    
+Input.sort()
+print(",".join(map(str,Input))) 
+number_sum=sum(Input)
+total_len=len(Input)   
+Mean=number_sum/total_len
+print("Mean of given number :",Mean)
+median=total_len/
+
    
