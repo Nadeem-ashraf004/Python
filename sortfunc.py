@@ -13,25 +13,27 @@ print("the sorted list is :")
 for i in sorted(reversed(lis)):
     print(i)      
 #################################
-Input=[]
-input_number=int(input("How many number do you wants to enter :"))
+Input = []
+input_number = int(input("How many numbers do you want to enter? "))
+
 for i in range(input_number):
-    num=int(input("Enter your number:"))
+    num = int(input("Enter your number: "))
     Input.append(num)
-print(",".join(map(str,Input))) 
-number_sum=sum(Input)
-total_len=len(Input)   
-Mean=number_sum/total_len
-print("Mean of given number :",Mean)
+print(",".join(map(str, Input)))
+number_sum = sum(Input)
+total_len = len(Input)
+Mean = number_sum / total_len
+print("Mean of given numbers:", Mean)
 def custom_median(lst):
-        lst.sort()
-        print(lst)
-        mid=total_len/2
-        if total_len % 2==0:
-              return (lst[mid-1]+lst[mid])/2
-        else:
-              return lst(mid)
-print("Medain :",custom_median(Input))
+    lst.sort()
+    n = len(lst)
+    mid = n // 2 
+    if n % 2 == 0:
+        return (lst[mid - 1] + lst[mid]) / 2  
+    else:
+        return lst[mid] 
+print("Median:", custom_median(Input))
+
 
 
    
