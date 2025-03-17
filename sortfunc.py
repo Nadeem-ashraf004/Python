@@ -33,7 +33,7 @@ def custom_median(lst):
     else:
         return lst[mid] 
 print("Median:", custom_median(Input))
-############
+
 
 
 
