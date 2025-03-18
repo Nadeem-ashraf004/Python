@@ -34,8 +34,3 @@ def custom_median(lst):
         return lst[mid] 
 print("Median:", custom_median(Input))
 ######
-
-
-
-
-   
