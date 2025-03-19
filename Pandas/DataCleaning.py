@@ -8,3 +8,6 @@ missing_values=df.isnull()
 print("missing values from the dataset !\n",missing_values)
 missing_values=df.notnull()
 print(missing_values)
+########################################
+data = pd.read_csv("C:\\Users\\nadeem\\Downloads\\employees.csv")
+print(data)
