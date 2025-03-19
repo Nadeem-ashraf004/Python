@@ -16,3 +16,6 @@ missing_values=pd.isnull(data["Gender"])
 print(missing_values)
 non_missing_values=data[missing_values]
 print(non_missing_values)
+data["Gender"].fillna('No Gender',inplace=True)
+data[10:25]
+data.replace(to_replace=np.nan,value=-99)
