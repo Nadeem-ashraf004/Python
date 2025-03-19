@@ -11,3 +11,8 @@ print(missing_values)
 ########################################
 data = pd.read_csv("C:\\Users\\nadeem\\Downloads\\employees.csv")
 print(data)
+# print(data)
+missing_values=pd.isnull(data["Gender"])
+print(missing_values)
+non_missing_values=data[missing_values]
+print(non_missing_values)
