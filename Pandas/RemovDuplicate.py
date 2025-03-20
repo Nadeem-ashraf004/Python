@@ -7,3 +7,4 @@ data = {
 df=pd.DataFrame(data)
 unique_df=df.drop_duplicates(subset=['Name'])
 print(unique_df)
+##############
