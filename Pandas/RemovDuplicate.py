@@ -5,3 +5,5 @@ data = {
     "City": ["NY", "LA", "NY", "Chicago"]
 }
 df=pd.DataFrame(data)
+unique_df=df.drop_duplicates()
+print(unique_df)
