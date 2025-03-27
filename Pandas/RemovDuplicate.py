@@ -15,4 +15,3 @@ data = {'Name': ['John', 'Alice', 'Bob', 'Eve', 'Charlie'],
 df=pd.DataFrame(data)
 df=df.astype({'Age':'float64','Salary':'str'})
 print(df.dtypes)
-#####
