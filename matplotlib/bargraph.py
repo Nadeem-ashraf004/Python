@@ -5,4 +5,3 @@ plt.bar(x,y)
 plt.title("Bar ghraph")
 plt.legend()
 plt.show()
-##
