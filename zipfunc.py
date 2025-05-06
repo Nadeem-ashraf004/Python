@@ -6,12 +6,12 @@ for name,age  in zip(names,ages):
 student=[]
 fatherName=[]
 def amnu():
-      studentDetail=input("Enter students name : ").lower() 
-      fatherNameDetail=input("Enter father name :").lower()
+      studentDetail=input("Enter students name : ").upper() 
+      fatherNameDetail=input("Enter father name :").upper()
       student.append(studentDetail)    
       fatherName.append(fatherNameDetail) 
       print("student detail & father detial added successfully")
 amnu()
-print(student)
-print(fatherName)
+print(f"students detail : ={student}")
+print(f"fatherName deatail : ={fatherName}")
 
