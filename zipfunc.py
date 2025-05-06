@@ -7,6 +7,8 @@ student=[]
 fatherName=[]
 def amnu():
       studentDetail=input("Enter students name : ").lower() 
-      fatherNameDetail=input("Enter fathers name :").lower()
+      fatherNameDetail=input("Enter father name :").lower()
+      student.append({"studentsDetail":studentDetail})    
+      fatherName.append({"fatherNameDetail":fatherNameDetail}) 
 
 
