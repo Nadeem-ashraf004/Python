@@ -8,8 +8,8 @@ fatherName=[]
 def amnu():
       studentDetail=input("Enter students name : ").lower() 
       fatherNameDetail=input("Enter father name :").lower()
-      student.append({studentDetail})    
-      fatherName.append({fatherNameDetail}) 
+      student.append(studentDetail)    
+      fatherName.append(fatherNameDetail) 
       print("student detail & father detial added successfully")
 amnu()
 print(student)
