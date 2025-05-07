@@ -12,6 +12,7 @@ def amnu():
       fatherName.append(fatherNameDetail) 
       print("student detail & father detial added successfully")
 amnu()
-print(f"students detail : ={student}")
-print(f"fatherName deatail : ={fatherName}")
+for students,fatherNames in zip(student,fatherName):
+        print(f"students detail : ={students}")
+        print(f"fatherName deatail : ={fatherNames}")
 
