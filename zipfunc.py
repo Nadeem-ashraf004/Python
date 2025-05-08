@@ -13,6 +13,5 @@ def amnu():
       print("student detail & father detial added successfully")
 amnu()
 for students,fatherNames in zip(student,fatherName):
-        print(f"students detail : ={students}")
-        print(f"fatherName deatail : ={fatherNames}")
-
+        print(f"students detail    :{students}")
+        print(f"fatherName deatail :{fatherNames}")
