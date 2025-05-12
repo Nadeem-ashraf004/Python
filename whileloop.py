@@ -36,7 +36,7 @@ import random
 target = random.randint(1,100)
 attempts=0
 print("Guess the number between 1 to 100 :")
-while true:
+while True:
     guess=int(input("Enter your guess :"))
     attempts +=1
 

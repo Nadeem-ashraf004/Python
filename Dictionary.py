@@ -11,24 +11,24 @@ print(x.get("a"))
 x.clear()
 print(x)
 ##############################################################
-d={
+d1={
     "product":{"name":"laptop","price":45000,"stock":40},
     "product2":{"name":"mobilephones","price":4000,"stock":20},
     "product3":{"name":"tablet","price ":499,"stock":10}
 }
 cnt=0
-for key ,val in d.items():
+for key ,val in d1.items():
     if isinstance(val,dict):
         for i in val:
             cnt+=1
     else:
         cnt+=1
 print(cnt) 
-lenght1=len(d.keys())
+lenght1=len(d1.keys())
 print(lenght1)
-lenght2=len(d.values())
+lenght2=len(d1.values())
 print(lenght2)
-lenght3=len(d.items())
+lenght3=len(d1.items())
 print(lenght3) 
 ################################### to marge the two or more dictionaries
    
