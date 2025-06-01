@@ -12,4 +12,4 @@ arr=[39, 12, 18, 85, 72, 10, 2, 18]
 print("unsorted list in the given list :",arr) 
 bubble_sort(arr) 
 print("sorted list",arr)
-        ########################################
+        #######################################
