@@ -11,7 +11,7 @@
 #     else:  
 #       return fact(n-1)*n 
 # print(fact(4))  
-########print sum of n natural number 
+#######print sum of n natural number 
 def calc_sum(n):
     if (n==0):
         return 1 
