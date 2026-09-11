@@ -1,3 +1,4 @@
+# recursion funtion is a function that call function it self....
 # def show(n):
 #     if(n==0):
 #         return
