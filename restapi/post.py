@@ -29,6 +29,5 @@ async def delete_item(item_id:int):
     if item_id in item:
         delete_item=item.pop(item)
         return{"massage ":"item delete","item":delete_item}
-    return{"error":"item not found"}
-                
+    return{"error":"item not found"}             
 
