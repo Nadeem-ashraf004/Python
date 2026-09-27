@@ -14,6 +14,7 @@ def create_token(data : dict):
     to_encode.update({
         "exp" : expire
     })
+    
     token = jwt.encode(to_encode , SECRET_KEY ,algorithm= ALGORITHM)
 
     return token
