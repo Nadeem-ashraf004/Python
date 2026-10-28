@@ -7,4 +7,3 @@ print("subtraction:",a-b)
 print("Floor division:",a//b)
 print("modulus:",a%b)
 print("exponentionals:",a**b)
-
