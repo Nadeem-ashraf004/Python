@@ -35,3 +35,5 @@ def global_access_var():
 
 global_access_var()
 #####################
+name=input("enter your name")
+print("your name :",name )
